@@ -1,0 +1,16 @@
+{
+  "name": "basic-node-server",
+  "version": "1.0.0",
+  "description": "A simple HTTP server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "http"
+  ],
+  "author": "Tanner Dolby",
+  "license": "ISC"
+}

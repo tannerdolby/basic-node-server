@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home page</title>
+</head>
+<body>
+    <h1>Write a message!</h1>
+    <form action="/message" method="POST" style="display: flex; flex-direction: column; max-width: 30ch;">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter name..."><br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="40" cols="10" style="resize: vertical; height: 8rem;" placeholder="Enter message..."></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
